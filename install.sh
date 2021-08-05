@@ -6,7 +6,7 @@ apt-get upgrade -y
 
 ##Download script
 
-wget https://raw.githubusercontent.com/tunneler123/sshplus/master/script.py
+wget https://raw.githubusercontent.com/ZeYNine/websocketscript.py/main/scripts.py
 
 ##Screen
 
@@ -22,7 +22,7 @@ chmod a+x script.py
 
 cd /usr/bin
 
-wget -O account https://raw.githubusercontent.com/tunneler123/sshplus/master/account.sh
+wget -O account https://raw.githubusercontent.com/ZeYNine/websocketscript.py/main/account.sh
 
 screen -dmS screen python ./script.py
 
@@ -44,11 +44,11 @@ chmod +x stop
 
 chmod +x account
 
-###TUNNELER###
+###ZEYNINE###
 
 clear
 
-echo -e "\e[1;32m PHTUNNELER AUTOSCRIPT \e[0m"
+echo -e "\e[1;32m ZEYNINE AUTOSCRIPT \e[0m"
 
 echo -e "\e[1;32m SSH INSTALLED DONE \e[0m"
 
